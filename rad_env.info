@@ -1,0 +1,5 @@
+name = Rad Environment
+description = Turns of some stuff in the Pantheon profile we don't want.
+package = Rad Campaign
+core = 7.x
+

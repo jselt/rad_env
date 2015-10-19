@@ -1,0 +1,20 @@
+<?php
+/**
+ * @file
+ * Disable some modules/node types we won't be using but pantheon's profile enables
+ */
+
+function rad_env_enable() {
+	module_disable(
+		array(
+			'color',
+			'comment',
+			'dashboard',
+			'shortcut',
+			'toolbar',
+			'overlay',
+		)
+	);
+	node_type_delete('article');
+}
+?>
